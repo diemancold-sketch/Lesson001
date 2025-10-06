@@ -1,0 +1,96 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(51, 0, 255);
+  padding: 40px 0px;
+}
+header nav {
+  display: flex;
+  gap: 40px;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+header nav a:hover {
+  background-color: rgb(78, 80, 79);
+  border-radius: 10px;
+}
+header h1 {
+  color: white;
+}
+* {
+  margin: 0;
+}
+.eature-list li:before {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-top: 25px;
+  gap: 20px;
+}
+
+.feature-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin-top: 25px;
+  gap: 20px;
+}
+.feature-list li::before {
+  content: "✔";
+  color: chocolate;
+  margin-right: 10px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 40px;
+}
+
+section {
+  width: 600px;
+  padding: 20px;
+  background-color: aquamarine;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h2 {
+  color: blue;
+}
+
+.highlight-box {
+  padding: 20px 15px;
+  background-color: blueviolet;
+  border-left: 3px solid yellow;
+}
+
+.demo-button {
+  align-self: flex-start;
+  padding: 15px;
+  border-radius: 50px;
+  background-color: cadetblue;
+  color: grey;
+  border: 0;
+}
+
+.demo-button:hover {
+  background-color: blueviolet;
+  color: white;
+}
