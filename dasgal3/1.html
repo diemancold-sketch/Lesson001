@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="mn">
+  <head>
+    <meta charset="UTF-8" />
+    <title>test</title>
+    <style>
+      body {
+        display: flex;
+        gap: 20px;
+        padding: 40px;
+        background-color: #f0f0f0;
+        font-family: sans-serif;
+      }
+
+      .box {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: bold;
+      }
+      .transition-box {
+        transition: background-color 2s;
+      }
+
+      .transition-box:hover {
+        background-color: blue;
+      }
+      .visibility-box:hover {
+        visibility: hidden;
+      }
+      .opacity-box {
+        opacity: 1;
+        transition: opacity 2s;
+      }
+
+      .opacity-box:hover {
+        opacity: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box transition-box">Transition</div>
+    <div class="box visibility-box">Visibility</div>
+    <div class="box opacity-box">Opacity</div>
+  </body>
+</html>
